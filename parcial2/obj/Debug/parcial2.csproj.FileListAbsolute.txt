@@ -1,0 +1,6 @@
+C:\Users\Yess\OneDrive - Universidad Mariano Gálvez\Escritorio\parcial2\parcial2\obj\Debug\parcial2.csproj.AssemblyReference.cache
+C:\Users\Yess\OneDrive - Universidad Mariano Gálvez\Escritorio\parcial2\parcial2\obj\Debug\parcial2.csproj.SuggestedBindingRedirects.cache
+C:\Users\Yess\OneDrive - Universidad Mariano Gálvez\Escritorio\parcial2\parcial2\obj\Debug\MainWindow.g.cs
+C:\Users\Yess\OneDrive - Universidad Mariano Gálvez\Escritorio\parcial2\parcial2\obj\Debug\App.g.cs
+C:\Users\Yess\OneDrive - Universidad Mariano Gálvez\Escritorio\parcial2\parcial2\obj\Debug\parcial2_MarkupCompile.cache
+C:\Users\Yess\OneDrive - Universidad Mariano Gálvez\Escritorio\parcial2\parcial2\obj\Debug\parcial2_MarkupCompile.lref

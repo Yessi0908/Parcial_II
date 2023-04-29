@@ -1,0 +1,90 @@
+﻿<Window x:Class="parcial2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:parcial2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="400" Width="300">
+    <Grid Margin="5">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="2*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="50"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Border Margin="5" BorderThickness="1"
+                BorderBrush="Pink"  Grid.Column="0" 
+                Grid.Row="0" Grid.ColumnSpan="3">
+            <Viewbox  HorizontalAlignment="Right">
+                <Label x:Name="ResultadoLabel"></Label>
+            </Viewbox>
+        </Border>
+        <Button Grid.Row="1" Grid.Column="0"
+                Margin="6" Tag="1" Click="Button_Click">
+            <Viewbox>
+                <Label>01</Label>
+            </Viewbox>
+        </Button>
+        <Button Grid.Row="1" Grid.Column="1" 
+                Margin="6" Tag="2" Click="Button_Click">
+            <Viewbox>
+                <Label>02</Label>
+            </Viewbox>
+        </Button>
+        <Button Grid.Row="1" Grid.Column="3" 
+                Margin="6" Tag="3" Click="Button_Click">
+            <Viewbox>
+                <Label>03</Label>
+            </Viewbox>
+        </Button>
+        <Button Grid.Row="2" Grid.Column="0" 
+                Margin="6" Tag="4" Click="Button_Click">
+            <Viewbox>
+                <Label>04</Label>
+            </Viewbox>
+        </Button>
+        <Button Grid.Row="2" Grid.Column="1" 
+                Margin="6" Tag="5" Click="Button_Click">
+            <Viewbox>
+                <Label>05</Label>
+            </Viewbox>
+        </Button>
+        <Button Grid.Row="2" Grid.Column="2" 
+                Margin="6" Tag="6" Click="Button_Click">
+            <Viewbox>
+                <Label>06</Label>
+            </Viewbox>
+        </Button>
+        <Button Grid.Row="3" Grid.Column="0" 
+                Margin="6" Tag="7" Click="Button_Click">
+            <Viewbox>
+                <Label>07</Label>
+            </Viewbox>
+        </Button>
+        <Button Grid.Row="3" Grid.Column="1" 
+                Margin="6" Tag="8" Click="Button_Click">
+            <Viewbox>
+                <Label>08</Label>
+            </Viewbox>
+        </Button>
+        <Button Grid.Row="3" Grid.Column="2" 
+                Margin="6" Tag="9" Click="Button_Click">
+            <Viewbox>
+                <Label>09</Label>
+            </Viewbox>
+        </Button>
+        <Button Grid.Row="4" Grid.Column="0"
+                Grid.ColumnSpan="3" Margin="6" Tag="0" Click="Button_Click">
+            <Viewbox>
+                <Label>00</Label>
+            </Viewbox>
+        </Button>
+    </Grid>
+</Window>
